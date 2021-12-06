@@ -28,6 +28,10 @@ namespace ASP_MVC_Beginner_Testing.Controllers
             return View();
         }
 
+        public IActionResult Binary_Converter(){
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
