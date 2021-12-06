@@ -8,9 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.AspNetCore.Authentication.Certificate;
 
-namespace asp_mvc_beginner_testing
+namespace ASP_MVC_Beginner_Testing
 {
     public class Startup
     {
@@ -24,15 +23,12 @@ namespace asp_mvc_beginner_testing
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddAuthentication(CertificateAuthenticationDefaults.AuthenticationScheme).AddCertificate();
-            services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            //app.UseAuthentication();
-            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

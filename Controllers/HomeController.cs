@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using asp_mvc_beginner_testing.Models;
+using ASP_MVC_Beginner_Testing.Models;
 
-namespace asp_mvc_beginner_testing.Controllers
+namespace ASP_MVC_Beginner_Testing.Controllers
 {
     public class HomeController : Controller
     {
@@ -27,10 +27,6 @@ namespace asp_mvc_beginner_testing.Controllers
         {
             return View();
         }
-
-        public IActionResult Test(){
-            return View();
-        }        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

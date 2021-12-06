@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace asp_mvc_beginner_testing
+namespace ASP_MVC_Beginner_Testing
 {
     public class Program
     {
@@ -15,8 +15,6 @@ namespace asp_mvc_beginner_testing
         {
             CreateHostBuilder(args).Build().Run();
         }
-
-        
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)

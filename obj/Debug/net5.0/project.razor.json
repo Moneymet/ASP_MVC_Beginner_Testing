@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\ChristerG\\Documents\\IT_Prosjekter\\ASP_Test\\ASP_MVC_Beginner_Testing\\test-mvc-webapp.csproj",
+  "FilePath": "c:\\Users\\ChristerG\\Documents\\IT_Prosjekter\\ASP_Test\\ASP_MVC_Beginner_Testing\\ASP_MVC_Beginner_Testing.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,7 +15616,7 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "asp_mvc_beginner_testing",
+  "RootNamespace": "ASP_MVC_Beginner_Testing",
   "Documents": [
     {
       "FilePath": "c:\\Users\\ChristerG\\Documents\\IT_Prosjekter\\ASP_Test\\ASP_MVC_Beginner_Testing\\Views\\_ViewStart.cshtml",
@@ -15631,11 +15631,6 @@
     {
       "FilePath": "c:\\Users\\ChristerG\\Documents\\IT_Prosjekter\\ASP_Test\\ASP_MVC_Beginner_Testing\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ChristerG\\Documents\\IT_Prosjekter\\ASP_Test\\ASP_MVC_Beginner_Testing\\Views\\Home\\Test.cshtml",
-      "TargetPath": "Views\\Home\\Test.cshtml",
       "FileKind": "mvc"
     },
     {

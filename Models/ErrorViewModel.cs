@@ -1,6 +1,6 @@
 using System;
 
-namespace asp_mvc_beginner_testing.Models
+namespace ASP_MVC_Beginner_Testing.Models
 {
     public class ErrorViewModel
     {
