@@ -79,3 +79,4 @@ C:\Users\ChristerG\Documents\IT_Prosjekter\ASP_Test\ASP_MVC_Beginner_Testing\obj
 C:\Users\ChristerG\Documents\IT_Prosjekter\ASP_Test\ASP_MVC_Beginner_Testing\obj\Debug\net5.0\ASP_MVC_Beginner_Testing.genruntimeconfig.cache
 C:\Users\ChristerG\Documents\IT_Prosjekter\ASP_Test\ASP_MVC_Beginner_Testing\obj\Debug\net5.0\ASP_MVC_Beginner_Testing.csproj.CopyComplete
 C:\Users\ChristerG\Documents\IT_Prosjekter\ASP_Test\ASP_MVC_Beginner_Testing\obj\Debug\net5.0\Razor\Views\Home\Binary_Converter.cshtml.g.cs
+C:\Users\ChristerG\Documents\IT_Prosjekter\ASP_Test\ASP_MVC_Beginner_Testing\obj\Debug\net5.0\Razor\Views\Cats\Random.cshtml.g.cs
