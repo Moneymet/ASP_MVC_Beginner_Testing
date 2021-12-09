@@ -29,6 +29,7 @@ namespace ASP_MVC_Beginner_Testing.Controllers
         }
 
         public IActionResult Binary_Converter(){
+            BinaryCalculator.ConvertFromBinary("01000101 01100001 01110100 00100000 01110011 01101000 01101111 01110010 01110100 01110011");
             return View();
         }
 

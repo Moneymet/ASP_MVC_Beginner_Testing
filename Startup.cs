@@ -49,6 +49,17 @@ namespace ASP_MVC_Beginner_Testing
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
+                    name: "CatsByBirthDate",
+                    pattern: "Cats/Birthed/{year}/{month}",
+                    defaults: new {controller="Cats", action="Birthed"},
+                    new { year = @"\d{4}", month = @"\d{2}"}
+                    );
+            });
+
+            app.UseEndpoints(endpoints =>
+            {
+
+                endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });

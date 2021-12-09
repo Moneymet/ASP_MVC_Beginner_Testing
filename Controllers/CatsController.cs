@@ -12,8 +12,18 @@ namespace ASP_MVC_Beginner_Testing.Controllers
     public class CatsController : Controller
     {
         public ActionResult Random(){
-            var cat = new Cat(){Id=1, LifetimeJumps=2100};
+            var cat = new Cat(){id=1, lifetimeJumps=2100};
             return View(cat);
         }
+
+        public ActionResult Birthed(int year, int month){
+            return Content("Year: " + year + "\nMonth: " + month);
+        }
+
+        public ActionResult Edit(int Id, int LifetimeJumps){
+            //Id = 5;
+            return Content("ID: " + Id + "\nLifetime jumps: " + LifetimeJumps);
+        }
+        
     }
 }
