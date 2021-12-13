@@ -15624,6 +15624,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\ChristerG\\Documents\\IT_Prosjekter\\ASP_Test\\ASP_MVC_Beginner_Testing\\Views\\Cats\\Random.cshtml",
+      "TargetPath": "Views\\Cats\\Random.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ChristerG\\Documents\\IT_Prosjekter\\ASP_Test\\ASP_MVC_Beginner_Testing\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -15636,11 +15641,6 @@
     {
       "FilePath": "c:\\Users\\ChristerG\\Documents\\IT_Prosjekter\\ASP_Test\\ASP_MVC_Beginner_Testing\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ChristerG\\Documents\\IT_Prosjekter\\ASP_Test\\ASP_MVC_Beginner_Testing\\Views\\Random\\Random.cshtml",
-      "TargetPath": "Views\\Random\\Random.cshtml",
       "FileKind": "mvc"
     },
     {
